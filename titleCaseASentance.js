@@ -5,7 +5,7 @@ function titleCase(str) {
    str = str.split(" "); // seperate the string by each space 
    
    for(var i = 0; i < str.length; i++) { // for loop to iterate through the length of the string 
-     str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); // each endex of the string will have their first index capitalized with 
+     str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); // each index of the string will have their first index capitalized with 
           // charAt(0).toUpperCase while the remaninder of the index will be add to the capitialized letter 
    }
    return str; // will return our new string index's
